@@ -1,6 +1,6 @@
 id: itest-employee
 name: 集测员工
-runtime: agentteams
+runtime: claude-code
 model: default
 prompt: prompts/itest.md
 procedures:
