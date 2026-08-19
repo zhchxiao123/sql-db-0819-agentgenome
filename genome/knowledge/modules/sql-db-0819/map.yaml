@@ -2,5 +2,15 @@
 id: sql-db-0819
 entrypoints: []
 depends_on: []
-features: []
+doc: genome/knowledge/modules/sql-db-0819/overview.md
+confidence: 0.8
+features:
+- id: repo-scaffold
+  summary: 仓库骨架占位:仅 README.md,无业务代码、无构建入口、无测试
+  scope:
+  - repos/sql-db-0819/README.md
+  produced_by: knowledge-init@2.5.0
+  no_card: 模块当前只有 Initial commit(b50eaad7ac078752d54518e2727f8e4705ea9ea5) 提交的 README.md
+    占位文件,没有任何可读的业务代码、构建声明(pyproject.toml/package.json/Makefile/Dockerfile 均无)或测试;没有代码就没有可提炼的承重不变量、异常降级路径与测试证据,写卡片只会编造。待业务代码入库后应重跑
+    knowledge-init 补齐功能卡片。
 submaps: []
