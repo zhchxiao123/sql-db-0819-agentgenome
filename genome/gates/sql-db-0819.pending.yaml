@@ -1,7 +1,0 @@
-version: 1
-module: sql-db-0819
-issues:
-- code: NO_STANDARD_ENTRYPOINT
-  detail: sql-db-0819 没有可确定的标准测试入口
-candidates: []
-proposal_task_id: null
